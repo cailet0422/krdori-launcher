@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KrdoriLauncher" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFB1C5</item>
+        <item name="colorOnPrimary">#5F1130</item>
+        <item name="colorPrimaryContainer">#7D2946</item>
+        <item name="colorOnPrimaryContainer">#FFD9E2</item>
+        <item name="colorSecondaryContainer">#5C3F48</item>
+        <item name="colorOnSecondaryContainer">#FFD9E2</item>
+    </style>
+</resources>

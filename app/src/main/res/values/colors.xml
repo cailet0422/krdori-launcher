@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_pink">#FF3B77</color>
+    <color name="status_ok">#2E9E5B</color>
+    <color name="status_wait">#E08E00</color>
+    <color name="status_error">#D93838</color>
+    <color name="status_off">#8A8A8A</color>
+</resources>

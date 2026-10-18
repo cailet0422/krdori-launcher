@@ -1,0 +1,3 @@
+[submodule "krdori-v2"]
+	path = krdori-v2
+	url = https://github.com/NatsuFlatWhite/krdori-v2.git

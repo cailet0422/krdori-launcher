@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">한도리 런처</string>
+    <string name="subtitle">krdori-v2 로컬 서버 · 127.0.0.1</string>
+
+    <!-- Server state -->
+    <string name="state_stopped">서버 중지됨</string>
+    <string name="state_starting">서버 시작 중</string>
+    <string name="state_running">서버 실행 중</string>
+    <string name="state_error">서버 오류</string>
+    <string name="state_stopped_detail">원클릭 플레이를 누르면 서버를 켜고 게임을 실행합니다</string>
+    <string name="state_crashed_detail">서버가 예기치 않게 종료되었습니다. 다시 시작해 주세요.</string>
+    <string name="status_extracting">서버 파일 준비 중… (처음 한 번은 시간이 걸려요)</string>
+    <string name="status_python">Python 시작 중…</string>
+    <string name="status_binding">서버 시작 중…</string>
+    <string name="status_waiting_ports">포트 여는 중… (%1$d/%2$d)</string>
+    <string name="status_running_detail">게임에서 접속할 수 있어요</string>
+    <string name="port_kakao">● Kakao 8480</string>
+    <string name="port_session">● Session 8481</string>
+    <string name="port_game">● Game 8482</string>
+
+    <!-- Main actions -->
+    <string name="play">원클릭 플레이</string>
+    <string name="start_server">서버 시작</string>
+    <string name="stop_server">서버 중지</string>
+
+    <!-- Game -->
+    <string name="section_game">게임</string>
+    <string name="game_installed">설치됨 · v%2$s\n%1$s</string>
+    <string name="game_missing">개조된 게임이 설치되어 있지 않습니다</string>
+    <string name="launch_game">게임만 실행</string>
+    <string name="install_apk">개조 APK 설치</string>
+    <string name="game_missing_title">게임이 없습니다</string>
+    <string name="game_missing_message">127.0.0.1 서버로 개조된 APK를 먼저 설치해야 합니다. 지금 APK 파일을 선택할까요?</string>
+    <string name="choose_apk">APK 선택</string>
+    <string name="game_launch_failed">게임을 실행할 수 없습니다</string>
+    <string name="unknown_sources">설정에서 \'이 출처의 앱 설치 허용\'을 켠 뒤 다시 눌러주세요</string>
+    <string name="installing">APK 설치 준비 중…</string>
+    <string name="install_success">게임 설치가 완료되었습니다</string>
+    <string name="install_conflict">설치 실패: 이미 설치된 게임과 서명이 다릅니다. 기존 게임을 삭제한 뒤 다시 시도하세요.</string>
+    <string name="install_failed">설치 실패: %1$s</string>
+
+    <!-- Save data -->
+    <string name="section_data">세이브 데이터</string>
+    <string name="data_info">%1$s · 마지막 저장 %2$s</string>
+    <string name="data_none">아직 저장된 데이터가 없습니다</string>
+    <string name="backup">백업</string>
+    <string name="restore">복원</string>
+    <string name="backup_done">세이브 데이터를 백업했습니다</string>
+    <string name="restore_done">세이브 데이터를 복원했습니다</string>
+    <string name="restore_confirm_title">데이터 복원</string>
+    <string name="restore_confirm_message">현재 세이브 데이터를 선택한 파일로 덮어씁니다. 되돌릴 수 없습니다.</string>
+
+    <!-- Server source -->
+    <string name="section_server">서버</string>
+    <string name="update_server">GitHub 최신 받기</string>
+    <string name="reset_server">내장 버전 복원</string>
+    <string name="update_confirm_title">서버 업데이트</string>
+    <string name="update_confirm_message">GitHub(NatsuFlatWhite/krdori-v2)의 최신 서버로 교체합니다. 세이브 데이터는 유지됩니다.\n\n최신 버전이 이 앱과 맞지 않으면 \'내장 버전 복원\'으로 되돌릴 수 있습니다.</string>
+    <string name="updating">서버 받는 중…</string>
+    <string name="update_done">서버를 최신 버전으로 교체했습니다</string>
+    <string name="reset_done">내장 버전으로 복원했습니다</string>
+
+    <!-- Tools -->
+    <string name="view_log">서버 로그</string>
+    <string name="battery">배터리 최적화 제외</string>
+    <string name="footnote">게임을 하는 동안 서버는 알림창의 \'한도리 런처\' 알림으로 계속 실행됩니다. 다 하면 서버 중지를 눌러 메모리를 돌려주세요.</string>
+
+    <!-- Dialogs -->
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="proceed">계속</string>
+    <string name="stop_needed_title">서버를 중지할까요?</string>
+    <string name="stop_needed_message">이 작업을 하려면 서버를 잠시 중지해야 합니다.</string>
+    <string name="error_title">문제가 생겼습니다</string>
+    <string name="server_timeout">서버가 제시간에 시작되지 않았습니다. 서버 로그를 확인해 주세요.</string>
+    <string name="server_failed">서버 시작 실패:\n%1$s</string>
+    <string name="port_in_use">8480–8482 포트를 이미 다른 앱이 쓰고 있습니다. Termux 등에서 서버를 실행 중이라면 먼저 종료해 주세요.</string>
+    <string name="server_died">서버 프로세스가 종료되었습니다. 서버 로그를 확인해 주세요.</string>
+
+    <!-- Log screen -->
+    <string name="log_title">서버 로그</string>
+    <string name="log_empty">(아직 로그가 없습니다)</string>
+    <string name="copy">복사</string>
+    <string name="clear">지우기</string>
+    <string name="copied">로그를 복사했습니다</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">로컬 서버</string>
+    <string name="notif_preparing">서버 준비 중…</string>
+    <string name="notif_running">서버 실행 중 · 127.0.0.1:8480–8482</string>
+    <string name="notif_error">서버 오류 — 앱에서 로그를 확인하세요</string>
+    <string name="action_stop_server">서버 중지</string>
+    <string name="action_launch_game">게임 실행</string>
+</resources>
